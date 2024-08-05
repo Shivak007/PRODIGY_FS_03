@@ -1,0 +1,145 @@
+.card .card-cover {
+  background-repeat: no-repeat;
+}
+.col h3 {
+  color: #000;
+}
+
+.mystyle {
+  background-color: green;
+  color: aliceblue;
+}
+
+.icon:hover {
+  fill: #481e14; /* Change color on hover */
+}
+
+.btn-primary {
+  background-color: #481e14;
+  border-color: #481e14;
+  color: #fff; /* Text color */
+}
+
+.btn-primary:hover {
+  background-color: #1e0342; /* Darker shade for hover effect */
+  border-color: #1e0342;
+}
+.btn-outline-primary {
+  color: #481e14;
+  border-color: #481e14;
+  border: none;
+}
+
+.btn-outline-primary:hover {
+  background-color: #481e14;
+  color: #fff; /* Text color on hover */
+}
+
+.card-body {
+  background-color: #f6482AD !important;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cart-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #7ab2b2;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 600px;
+  background-color: #eef7ff;
+  padding: 20px;
+  margin: 10px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.cart-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.bd-placeholder-img card-img-top {
+  colour: #eef7ff;
+}
+
+.item-name {
+  flex: 2;
+  margin: 0;
+  color: #481e14;
+}
+
+.item-price {
+  flex: 1;
+  margin: 0;
+  text-align: center;
+  color: #481e14;
+}
+
+.remove-button {
+  flex: 1;
+  background-color: #a7e6ff;
+  color: #240750;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.remove-button:hover {
+  background-color: #3572ef;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 80vh;
+}
+
+.login-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form-container {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  font-size: 10px;
+  border: 1px solid black;
+  border-radius: 3px;
+}

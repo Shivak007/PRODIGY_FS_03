@@ -1,0 +1,47 @@
+[
+    {
+        "id":"1",
+        "p_name": "Apples",
+        "price": 160
+    },
+    {
+       "id":"2",
+        "p_name": "Bananas",
+        "price": 140 
+    },
+    {
+        "id":"3",
+        "p_name": "Tomatoes",
+        "price": 65 
+    },
+    {
+        "id":"4",
+        "p_name": "Lettuce",
+        "price": 78
+    },
+    {
+        "id":"5",
+        "p_name": "Onions",
+        "price":  54
+    },
+    {
+        "id":"6",
+        "p_name": "Potatoes",
+        "price": 49
+    },
+    {
+        "id":"7",
+        "p_name": "Eggs",
+        "price": 240 
+    },
+    {
+        "id":"8",
+        "p_name": "Chicken breasts",
+        "price": 459
+    },
+    {
+        "id":"9",
+        "p_name": "Rice",
+        "price": 250 
+    }
+]

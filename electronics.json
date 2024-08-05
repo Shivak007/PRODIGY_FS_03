@@ -1,0 +1,47 @@
+[
+    {
+        "id":"22",
+        "p_name": "iPhone 15",
+        "price": 72800
+    },
+    {
+       "id":"23",
+        "p_name": "ASUS ROG Strix G15",
+        "price": 109800 
+    },
+    {
+        "id":"24",
+        "p_name": "Canon EOS R10 Camera",
+        "price": 89700 
+    },
+    {
+        "id":"25",
+        "p_name": "Canon MAXIFY MegaTank Printer",
+        "price": 39500 
+    },
+    {
+        "id":"26",
+        "p_name": "Sony PlayStation®5 Console",
+        "price": 31600
+    },
+    {
+        "id":"27",
+        "p_name": "Noise Pulse 4 Max Smart Watch",
+        "price": 4999 
+    },
+    {
+        "id":"28",
+        "p_name": "Wipro Elato Ironbox",
+        "price": 3899 
+    },
+    {
+        "id":"29",
+        "p_name": "ASUS ROG Rapture Gaming Router",
+        "price": 6200 
+    },
+    {
+        "id":"30",
+        "p_name": "Panasonic 25L Solo Microwave Oven",
+        "price": 7300 
+    }
+]

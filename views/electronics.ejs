@@ -1,0 +1,222 @@
+<%- include("partials/header.ejs") %>
+  <html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>electronics</title>
+  </head>
+
+  <body>
+    <div style="background-color:	#fffdb8 !important;" class="album py-5 bg-body-tertiary">
+      <div class="container">
+        <form action="/add" method="post">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            <div class="col">
+              <div class="card shadow-sm">
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                  xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                  preserveAspectRatio="xMidYMid slice" focusable="false">
+                  <title>Placeholder</title>
+                  <rect width="100%" height="100%" fill="#55595c"></rect>
+                  <image href="images/phone.png" x="0" y="0" width="100%" height="100%"></image>
+                </svg>
+                <div class="card-body">
+                  <p class="card-text">Apple iPhone 15 (256 GB) - White Titanium 15 cm (6.1-inch) Super Retina XDR
+                    display</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="submit" value="iPhone 15" name="choice" formmethod="post" formaction="/add"
+                        class="btn btn-sm btn-outline-secondary">Add to cart</button>
+                    </div>
+                    <small class="text-body-secondary">₹72800</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                  xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                  preserveAspectRatio="xMidYMid slice" focusable="false">
+                  <title>Placeholder</title>
+                  <rect width="100%" height="100%" fill="#55595c"></rect>
+                  <image href="/images/laptop.png" x="0" y="0" width="100%" height="100%"></image>
+                </svg>
+                <div class="card-body">
+                  <p class="card-text">ASUS ROG Strix G15 Gaming Laptop,AMD Ryzen 7-6800HS,17.3-inch FHD 144Hz, RTX 3050
+                    4GB Graphics,(16GB RAM/512GB SSD/2.5 Kg)</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="submit" value="ASUS ROG Strix G15" name="choice" formmethod="post" formaction="/add"
+                        class="btn btn-sm btn-outline-secondary">Add to cart</button>
+                    </div>
+                    <small class="text-body-secondary">₹109800</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                  xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                  preserveAspectRatio="xMidYMid slice" focusable="false">
+                  <title>Placeholder</title>
+                  <rect width="100%" height="100%" fill="#55595c"></rect>
+                  <image href="/images/cam.png" x="0" y="0" width="100%" height="100%"></image>
+                </svg>
+                <div class="card-body">
+                  <p class="card-text">Canon EOS R10 24.2MP RF-S18-150mm f/4.5-6.3 IS STM Mirrorless Camera (APS-C
+                    Sensor, 4K UHD Video) for Wedding & Content creators – Black</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="submit" value="Canon EOS R10 Camera" name="choice" formmethod="post"
+                        formaction="/add" class="btn btn-sm btn-outline-secondary">Add to cart</button>
+                    </div>
+                    <small class="text-body-secondary">₹89700</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card shadow-sm">
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                  xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                  preserveAspectRatio="xMidYMid slice" focusable="false">
+                  <title>Placeholder</title>
+                  <rect width="100%" height="100%" fill="#55595c"></rect>
+                  <image href="/images/printer.png" x="0" y="0" width="100%" height="100%"></image>
+                </svg>
+                <div class="card-body">
+                  <p class="card-text">Canon MAXIFY MegaTank GX6070 All-in-One Wireless Ink Tank (Colour) Business
+                    Printer for High Volume Document Printing, White and Black, Standard</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="submit" value="Canon MAXIFY MegaTank Printer" name="choice" formmethod="post"
+                        formaction="/add" class="btn btn-sm btn-outline-secondary">Add to cart</button>
+                    </div>
+                    <small class="text-body-secondary">₹39500</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                  xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                  preserveAspectRatio="xMidYMid slice" focusable="false">
+                  <title>Placeholder</title>
+                  <rect width="100%" height="100%" fill="#55595c"></rect>
+                  <image href="/images/ps5.png" x="0" y="0" width="100%" height="100%"></image>
+                </svg>
+                <div class="card-body">
+                  <p class="card-text">Sony PlayStation®5 Console (slim)-16.9 x 43.1 x 35.9 cm; 4.9 kg</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="submit" value="Sony PlayStation®5 Console" name="choice" formmethod="post"
+                        formaction="/add" class="btn btn-sm btn-outline-secondary">Add to cart</button>
+                    </div>
+                    <small class="text-body-secondary">₹31600</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                  xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                  preserveAspectRatio="xMidYMid slice" focusable="false">
+                  <title>Placeholder</title>
+                  <rect width="100%" height="100%" fill="#55595c"></rect>
+                  <image href="/images/watch.png" x="0" y="0" width="100%" height="100%"></image>
+                </svg>
+                <div class="card-body">
+                  <p class="card-text">Noise Pulse 4 Max Smart Watch with AI Create , AI Search, 1.96" AMOLED Display,
+                    Functional Crown, Premium Metallic Finish, Health Suite (Space Blue)</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="submit" value="Noise Pulse 4 Max Smart Watch" name="choice" formmethod="post"
+                        formaction="/add" class="btn btn-sm btn-outline-secondary">Add to cart</button>
+                    </div>
+                    <small class="text-body-secondary">₹4999</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card shadow-sm">
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                  xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                  preserveAspectRatio="xMidYMid slice" focusable="false">
+                  <title>Placeholder</title>
+                  <rect width="100%" height="100%" fill="#55595c"></rect>
+                  <image href="/images/ironbox.png" x="0" y="0" width="100%" height="100%"></image>
+                </svg>
+                <div class="card-body">
+                  <p class="card-text">Wipro Elato 1200 Watt Heavyweight Automatic Dry Iron| Quick Heat Up| Anti
+                    Bacterial German Weilburger Double Coated Black Soleplate</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="submit" value="Wipro Elato Ironbox" name="choice" formmethod="post"
+                        formaction="/add" class="btn btn-sm btn-outline-secondary">Add to cart</button>
+                    </div>
+                    <small class="text-body-secondary">₹3899</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                  xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                  preserveAspectRatio="xMidYMid slice" focusable="false">
+                  <title>Placeholder</title>
+                  <rect width="100%" height="100%" fill="#55595c"></rect>
+                  <image href="/images/router.png" x="0" y="0" width="100%" height="100%"></image>
+                </svg>
+                <div class="card-body">
+                  <p class="card-text">ASUS ROG Rapture GT-AX6000 Dual-Band WiFi 6 Extendable Gaming Router, Dual 2.5G
+                    Ports, Aura RGB, Subscription-free Network Security</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="submit" value="ASUS ROG Rapture Gaming Router" name="choice" formmethod="post"
+                        formaction="/add" class="btn btn-sm btn-outline-secondary">Add to cart</button>
+                    </div>
+                    <small class="text-body-secondary">₹6200</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                  xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                  preserveAspectRatio="xMidYMid slice" focusable="false">
+                  <title>Placeholder</title>
+                  <rect width="100%" height="100%" fill="#55595c"></rect>
+                  <image href="/images/micro.png" x="0" y="0" width="100%" height="100%"></image>
+                </svg>
+                <div class="card-body">
+                  <p class="card-text">Panasonic 25L Solo Microwave Oven (NN-ST310QBFG, Black, 85 Auto Cook Menus)</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="submit" value="Panasonic 25L Solo Microwave Oven" name="choice" formmethod="post"
+                        formaction="/add" class="btn btn-sm btn-outline-secondary">Add to cart</button>
+                    </div>
+                    <small class="text-body-secondary">₹7300</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+  <%- include("partials/footer") %>
+
+  </html>
